@@ -124,6 +124,7 @@ aside{
 }
 .category-3{
     margin-top: 1rem;
+    border-bottom: 1px solid #4242422d;
 }
 .menu-sub{
     font-size: 14px;
@@ -136,4 +137,5 @@ aside{
     height: 24px;
     border-radius: 50%;
 }
+
 /* Aside ends */
