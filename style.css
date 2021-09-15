@@ -116,4 +116,10 @@ aside{
 .hov :hover{
     background-color: #e5e5e598;
 }
+.category-2{
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid #e5e5e598;
+    border-bottom: 1px solid #e5e5e598;
+}
 /* Aside ends */
