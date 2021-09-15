@@ -137,5 +137,23 @@ aside{
     height: 24px;
     border-radius: 50%;
 }
-
+.footer{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.footer-links{
+    font-size: 13px;
+    font-weight: 500;
+    color: #606060;
+    text-decoration: none;
+    text-align: justify;
+    margin-left: 1rem;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 400;
+    color: #909090;
+    text-decoration: none;
+    margin-left: 1rem;
+}
 /* Aside ends */
