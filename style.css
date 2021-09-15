@@ -86,7 +86,7 @@ nav{
 aside{
     margin-top: 56px;
     width: 240px;
-    height: calc(100vh - 57px);
+    height: calc(100vh - 56px);
     bottom: 0;
     position: fixed;
     background-color: #fff;
@@ -157,3 +157,32 @@ aside{
     margin-left: 1rem;
 }
 /* Aside ends */
+/* tags area start */
+.tags-area{
+    width: calc(100% - 240px);
+    margin-top: 56px;
+    height: 56px;
+    float: right;
+    background-color: #fff;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tag{
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 24px;
+    color: #030303;
+    background-color: #f2f2f2;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tag-active{
+    background-color: #030303;
+    color: #fff;
+}
+/* tags area ends */
