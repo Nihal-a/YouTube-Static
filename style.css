@@ -170,6 +170,9 @@ aside{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 .tag{
     text-decoration: none;
@@ -185,4 +188,18 @@ aside{
     background-color: #030303;
     color: #fff;
 }
+.tag:hover{
+    background-color: #030303;
+    color: #fff;
+}
 /* tags area ends */
+
+/* Videos section starts */
+.vidoes-area{
+    width: calc(100% - 240px);
+    height: 200vh;
+    background-color: firebrick;
+    float: right;
+
+}
+/* Videos section ends */
