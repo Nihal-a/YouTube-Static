@@ -81,3 +81,39 @@ nav{
     justify-content: space-between;
 }
 /* Nav ends */
+
+/* Aside starts */
+aside{
+    margin-top: 56px;
+    width: 240px;
+    height: calc(100vh - 57px);
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+    overflow: scroll;
+}
+.category-1{
+    top: 0;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+.menu-item .p-act{
+    font-weight: 500;
+}
+.menu-item p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 1.5rem;
+    color: #030303;
+}
+.active{
+    background-color: #e5e5e5;
+}
+.hov :hover{
+    background-color: #e5e5e598;
+}
+/* Aside ends */
